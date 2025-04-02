@@ -3,16 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Date-Difference-Calculator</title>
   </head>
   <body>
     <div class="container" id="container">
-      <input id="firstTime" type="datetime-local" />
-      <input id="secondTime" type="datetime-local" />
-      <button onclick="calcDateDifference()">Calc It!</button>
+      <div class="action-container">
+        <input id="firstTime" type="datetime-local" />
+        <input id="secondTime" type="datetime-local" />
+        <button onclick="calcDateDifference()">Calc It!</button>
+        <p id="result"></p>
+      </div>
     </div>
-    <p id="result"></p>
 
     <script src="./main.js"></script>
   </body>
